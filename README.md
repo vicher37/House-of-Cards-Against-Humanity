@@ -3,7 +3,7 @@ House-of-Cards-Against-Humanity
 
 A funny game in the context of House of Cards, written in Python 2.7.8
 
-by Vicky Qijing Zhang, a beginner of programming
+by Vicky Qijing Zhang, a beginner in programming
 
 ===============================
 
