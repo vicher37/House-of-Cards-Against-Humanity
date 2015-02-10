@@ -38,7 +38,8 @@ qlist = [q1, q2, q3, q4, q5, q6, q7, q8, q9]
 alist = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16]
 
 
-# randomly choose a question -> show the number of answers required -> pause for 2 seconds -> show 1 answer or 2 answers according to the requirement -> pause for 2 seconds
+# randomly choose a question -> show the number of answers required -> pause for 2 seconds -> 
+# show 1 answer or 2 answers according to the requirement -> pause for 2 seconds
 
 def qaloop():
     for q in qlist:
@@ -56,9 +57,11 @@ def qaloop():
                 a.show_text()
                 time.sleep(2)
  
- #ask the user whether they want to continue, and let them input a funnier answer if they want to.        
+ #ask the user whether they want to continue, and let them rate the answer if they want to.        
 
-            cont = input("Enter 'y' (including the quotation marks) if you want to go on to the next question, enter 'n' if you want to stop here, and enter 'a' if you want to rate this answer before going to the next question :) ")
+            cont = input("Enter 'y' (including the quotation marks) if you want to go on to the next question, " + 
+            "enter 'n' if you want to stop here, " + 
+            "and enter 'a' if you want to rate this answer before going to the next question :) ")
             if cont == 'y':
                 time.sleep(2)
                 qaloop()
